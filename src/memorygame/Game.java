@@ -38,7 +38,7 @@ public class Game{
     
     
        private CardView[][]board;
-    public String[] words;
+       public String[] words;
     
     private  Random randomCard;
     private  Scanner getInput;
@@ -49,7 +49,7 @@ public class Game{
     public int module;
    
     
-    
+   
     
      
      public void startGame(int noPlayers,int gameLevel)
@@ -111,7 +111,7 @@ public class Game{
     };
      public void GameEasy(){
         
-       String[] words = new String []{"RED","RED","RED","YELLOW","YELLOW","YELLOW","GREEN","GREEN","GREEN"};// because  the words  is shuffled I createn new string for each level
+       words = new String []{"RED","RED","RED","YELLOW","YELLOW","YELLOW","GREEN","GREEN","GREEN"};// because  the words  is shuffled I createn new string for each level
         randomCard = new Random();
         getInput = new Scanner(System.in);
         board = new CardView[3][3];
@@ -127,7 +127,7 @@ public class Game{
     }
      public void GameMedium(){ 
    
-    
+      words = new String []{"RED","RED","RED","YELLOW","YELLOW","YELLOW","GREEN","GREEN","GREEN"};
         randomCard = new Random();
         getInput = new Scanner(System.in);
         board = new CardView[4][4];
