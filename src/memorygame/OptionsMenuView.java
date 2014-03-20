@@ -31,7 +31,7 @@ public class OptionsMenuView extends Menu {
     
     @Override
     public String executeCommands(Object object) {
-        //String gameStatus = Game.PLAYING;
+      //  String gameStatus = Game.PLAYING;
         
         if (this.whatToDo.equalsIgnoreCase("Level")){
             
@@ -46,13 +46,13 @@ public class OptionsMenuView extends Menu {
                         this.setNumbLevel(2);
                         break;
                      case "3":
-                       //this.setNumbLevel(3);
+                       this.setNumbLevel(3);
                          break;
                      case "X":
                          return Game.EXIT;
             }
         }else if (this.whatToDo.equalsIgnoreCase("Player")){
-            //LevelMenuView levelMenu = new LevelMenuView();           
+                   
             this.setMenuItems(menuItemsNumbPlayers); 
             this.display();
             String command = this.getCommand();
@@ -72,11 +72,11 @@ public class OptionsMenuView extends Menu {
         return Game.EXIT;
     }
     
-    
     /*
+    
     public void startGame(int noPlayers,int gameLevel)
     {
-         Game game=new Game();        
+                 
         if (noPlayers != 1  &&  noPlayers != 2) {
             new MemoryGameError().displayError("startGame - invalid number of players specified.");
             return;
@@ -90,16 +90,18 @@ public class OptionsMenuView extends Menu {
         if (noPlayers == 1){
             if(gameLevel==1){
                 System.out.println(" One PLayer Level 1");
+                GameEasy gameEasy = new GameEasy();
+                gameEasy.choosePairOfCards();
                
-               game.choosePairOfCards();// just a prototype needed to be created still
+               
                              }
              else if(gameLevel==2){
                  System.out.println(" One PLayer Level 2");
-                game.choosePairOfCards();// just a prototype needed to be created still
+               
                               }
              else if (gameLevel==3){
                  System.out.println(" One PLayer Level 3");
-               game.choosePairOfCards(); // just a prototype needed to be created still   
+             //  game.choosePairOfCards(); // just a prototype needed to be created still   
                                     }
                     
                    
@@ -107,15 +109,15 @@ public class OptionsMenuView extends Menu {
         else {
              if(gameLevel==1){
                 System.out.println(" Two PLayer Level 1");
-               game.choosePairOfCards();// just a prototype needed to be created still
+            //   game.choosePairOfCards();// just a prototype needed to be created still
                              }
              else if(gameLevel==2){
                  System.out.println(" Two PLayer Level 2");
-                  game.choosePairOfCards();// just a prototype needed to be created still
+            //      game.choosePairOfCards();// just a prototype needed to be created still
                               }
              else if (gameLevel==3){
                  System.out.println(" Two PLayer Level 3");
-                  game.choosePairOfCards();// just a prototype needed to be created still
+           //       game.choosePairOfCards();// just a prototype needed to be created still
                               }
         
              }
@@ -125,7 +127,7 @@ public class OptionsMenuView extends Menu {
               
                 
 
-     
+     /*
     
     //    private Game createGame(String gameType) {
         Game game = null;

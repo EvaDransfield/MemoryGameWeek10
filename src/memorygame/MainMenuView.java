@@ -62,8 +62,8 @@ public class MainMenuView extends Menu {  //this class has a tight cohesion
                     optionMenu.executeCommands(null);
        
                     // play the game. (Need to move this to the Game class)
-                   // optionMenu.startGame(optionMenu.getNumbPlayers(), optionMenu.getNumbLevel());
-                   Game game = new Game();
+                   //optionMenu.startGame(optionMenu.getNumbPlayers(), optionMenu.getNumbLevel());
+                  Game game = new Game();
                     game.startGame(optionMenu.getNumbPlayers(), optionMenu.getNumbLevel());
                     
        
