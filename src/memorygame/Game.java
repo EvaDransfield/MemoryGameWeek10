@@ -90,6 +90,7 @@ public class Game{
              if(gameLevel==1){
                    System.out.println(" Two PLayer Level 1");
                    this.GameEasy();
+                   // create a LOOP?? for turns?
                     // HOW TO MAKE IT THAT THE NEXT PLAYER COULD TAKE A TURN?
                ;
                 
@@ -120,7 +121,7 @@ public class Game{
         shuffle();// I don't know if thos are necessary
         setCells ();
         printCells();
-       playGame();
+       playGame();// this is  not  used 
        
       
     }
