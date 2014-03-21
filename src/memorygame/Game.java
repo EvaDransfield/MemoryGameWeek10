@@ -37,7 +37,7 @@ public class Game{
     
     
     
-       private CardView[][]board;
+      public CardView[][]board;
        public String[] words;
     
     private  Random randomCard;
