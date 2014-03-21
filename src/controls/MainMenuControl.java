@@ -2,9 +2,11 @@
  * This class is done!
  */
 
-package memorygame;
+package controls;
 
 import java.util.Scanner;
+import gamecreator.Player;
+import gamecreator.PlayerView;
 
 /**
  * @author Mpianatra

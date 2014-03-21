@@ -2,7 +2,7 @@
  * This class is done!
  */
 
-package memorygame;
+package controls;
 
 /**
  *

@@ -1,9 +1,19 @@
-package memorygame;
+package views;
 
+import controls.MainMenuControl;
+import controls.Memorygame;
+import controls.Menu;
+import gamecreator.Game;
 import java.util.Scanner;
 
 /*
- * To change this license header, choose License Headers in Project Properties.
+ import memorygame.Game;
+import memorygame.HelpMenuView;
+import memorygame.MainMenuControl;
+import memorygame.MainMenuView;
+import memorygame.Memorygame;
+import memorygame.Menu;
+* To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */

@@ -4,8 +4,9 @@
 *  size of array of cards that will be used in the game.
 */
 
-package memorygame;
+package gamecreator;
 
+import gamecreator.CardView;
 import java.io.Serializable;
 import java.lang.reflect.Array;
 

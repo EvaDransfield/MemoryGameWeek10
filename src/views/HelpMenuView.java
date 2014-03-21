@@ -4,9 +4,11 @@
  * and open the template in the editor.
  */
 
-package memorygame;
+package views;
 
 import java.util.Scanner;
+import gamecreator.Game;
+import controls.Menu;
 
 
 

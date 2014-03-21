@@ -1,8 +1,12 @@
-package memorygame;
+package views;
 
+import controls.Menu;
+import gamecreator.Game;
 import java.util.Scanner;
 /*
- * @author michelewhite
+ *import memorygame.Game;
+import memorygame.Menu;
+ @author michelewhite
  */
 
 public class OptionsMenuView extends Menu {

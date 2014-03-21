@@ -4,8 +4,9 @@
  * move and statistic functions that are in other classes to this class.
  */
 
-package memorygame;
+package gamecreator;
 
+import controls.MemoryGameError;
 import java.io.Serializable;
 /**
  * @author KenandEva

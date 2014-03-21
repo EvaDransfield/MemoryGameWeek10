@@ -2,8 +2,13 @@
  * This class works correctly! 
  */
 
-package memorygame;
+package views;
+import views.HelpMenuView;
 import java.util.Scanner;
+import gamecreator.Game;
+import controls.MainMenuControl;
+import controls.Memorygame;
+import controls.Menu;
 
 /**
  * @author Eva

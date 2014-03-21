@@ -5,8 +5,11 @@
  * 4. We need to create a timer so that we can get statistics for our game.
  */
 
-package memorygame;
+package gamecreator;
 
+import gamecreator.Player;
+import gamecreator.CardView;
+import controls.MemoryGameError;
 import java.lang.reflect.Array;
 import java.util.Random;
 import java.util.Scanner;

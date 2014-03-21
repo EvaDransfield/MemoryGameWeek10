@@ -1,7 +1,7 @@
 /* This class creates the card board array mentioned in the CardDeck class
 *  I'm not sure what else it will need to do.
 */
-package memorygame;
+package gamecreator;
 
 import java.io.Serializable;
 

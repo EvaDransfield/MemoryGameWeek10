@@ -3,8 +3,9 @@
  * player names, ect.  I'm not sure what else this needs to do
  */
 
-package memorygame;
+package gamecreator;
 
+import controls.MemoryGameError;
 import java.io.Serializable;
 import java.util.Scanner;
 

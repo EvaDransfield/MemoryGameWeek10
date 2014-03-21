@@ -4,8 +4,9 @@
  * and open the template in the editor.
  */
 
-package memorygame;
+package controls;
 
+import controls.MemoryGameError;
 import java.util.Scanner;
 
 /**
